@@ -24,6 +24,40 @@ event-driven design, audio/visual feedback, collision physics, and a clean game 
 | `SPACE`     | Start game / serve  |
 | `ESC`       | Quit game           |
 
+![Start Screen](StartScreen.png)
+
+## Notes
+
+-AI paddle speed is constant; it tracks the ball without delay.
+
+-Scoring to 5 triggers a reset after a brief pause.
+
+-MAX_BOUNCE_ANGLE controls ball deflection angles (60° max).
+
+-Uses custom SDL user events to cleanly trigger ball resets.
+
+## Learning Goals
+
+-This project was built to explore:
+
+-SDL2 fundamentals (rendering, input, audio, timing)
+
+-Event-driven architecture using SDL_USEREVENT
+
+-Game loop structuring (input → update → render)
+
+-Collision detection (AABB) and response
+
+-Minimal use of RAII and memory management (manual cleanup)
+
+## Credits
+
+Built by Adrian Ascanio
+
+Inspired by the original Pong (Atari, 1972)
+
+Sound and font assets used under open licenses
+
 ## Dependencies
 
 Make sure these are installed:
