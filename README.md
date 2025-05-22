@@ -24,7 +24,7 @@ event-driven design, audio/visual feedback, collision physics, and a clean game 
 | `SPACE`     | Start game / serve  |
 | `ESC`       | Quit game           |
 
-![Start Screen](StartScreen.png)
+[![Start Screen](StartScreen.png)](https://github.com/Elif-dev86/SDL2-Pong/blob/main/StartScreen.PNG?raw=true)
 
 ## Notes
 
